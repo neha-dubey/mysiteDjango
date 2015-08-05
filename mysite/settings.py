@@ -37,7 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp'
+    'myapp',
+    'markdown_deux',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/neha/djangoProject/mysite/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

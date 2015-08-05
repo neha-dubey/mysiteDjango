@@ -1,0 +1,19 @@
+{% load markdown_deux_tags %}
+{% markdown %}
+# FIRST DJANGO PROJECT
+## YEAH !! I DID IT !! :)
+**bold text.**
+> Blockquote begins here
+> just a sample
+
+---
+three hyphens
+
+---
+
+[StocksAnalyser blog here](http://www.stocksanalyser.com "learn technical and fundamental analysis")
+
+code `highlighting with back ticks`
+
+
+{% endmarkdown %}
